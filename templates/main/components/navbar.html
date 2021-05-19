@@ -1,0 +1,17 @@
+﻿<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo">COVID report</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="a">Questions</a></li>
+            <li><a href="a">Leaderboards</a></li>
+
+            <li>
+                {% if request.user.is_authenticated %}
+                  <a href="{% url 'auth_logout' %}">Logout</a>
+                 {% else %}
+                <a href="{% url 'auth_login' %}">Login</a>
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+</nav>

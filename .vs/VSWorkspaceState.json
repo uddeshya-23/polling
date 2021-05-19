@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\auth",
+    "\\main",
+    "\\pollenv",
+    "\\pollingapp",
+    "\\templates",
+    "\\templates\\auth",
+    "\\templates\\main",
+    "\\templates\\main\\components"
+  ],
+  "SelectedNode": "\\auth\\urls.py",
+  "PreviewInSolutionExplorer": false
+}
